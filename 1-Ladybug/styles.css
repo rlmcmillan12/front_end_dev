@@ -49,6 +49,7 @@ article {
     align-items: center;
     justify-content: space-around;
     border: 2px solid yellowgreen;
+    
 }
 article div {
     display: flex;
@@ -64,4 +65,7 @@ div ul li{
 .div-column {
     display: flex;
     flex-direction: column;
+}
+span {
+    color: darkcyan;
 }
