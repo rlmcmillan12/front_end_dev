@@ -2,22 +2,22 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(243, 209, 205);
+    background-color: rgb(248, 219, 214);
     margin: 0;
-    color: #4b5bedea;
-
+    color: rgb(41, 45, 126);
+    font-family: 'Montserrat', sans-serif;
 }
 nav {
     display: flex;
     background-color: white;
     height: 75px;
-    border: 1px solid #4b5bedea;
-    box-shadow: 0px 2px 10px #4b5bedea;
+    border-bottom: 1px solid rgb(133, 138, 228);
+    box-shadow: 0px 2px 5px rgb(133, 138, 228);
 }
 nav div{
     display: flex;
     text-decoration: none;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     align-items: center;
 
 }
@@ -27,6 +27,9 @@ nav div{
 .middle {
     width: 40%;
     justify-content: space-around;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(78, 85, 223);
 }
 .right{
     width: 20%;
@@ -34,38 +37,64 @@ nav div{
 }
 .nav-div a{
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-decoration: none;
-    color: #4b5bedea;
 }
 .ladybug-nav {
     text-decoration: none;
-    color: #4b5bedea;
+    color: rgb(78, 85, 223);
     margin-left: 15%;
+    font-weight: 600;
 }
-
-article {
+.main-body {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    border: 2px solid yellowgreen;
+}
+.hero-image {
+
+}
+.home-page-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 55%;
+    margin-right: 80px;
+}
+.bold-statement span {
+    color: rgb(126, 183, 166);
+}
+.bold-statement {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 900;
+    font-size: 100px;
+    display: block;
+    margin-bottom: 0px;
+}
+.statement {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.6em;
+    width: 480px;
+}
+.email-bar {
+    display: flex;
+    background-color: white;
     
 }
-article div {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid orange;
-}
-div ul li{
-    display: flex;
-    border: 2px solid black;
-    flex-direction: column;
-}
+.input-side {
 
-.div-column {
-    display: flex;
-    flex-direction: column;
 }
-span {
-    color: darkcyan;
+.email-writing {
+
+}
+.input-bar {
+
+}
+.intup-text {
+
+}
+.get-started-button {
+    margin: 0 auto;
+    border: 0;
 }
