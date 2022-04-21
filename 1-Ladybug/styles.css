@@ -116,6 +116,8 @@ nav div{
     border: none;
     width: 100%;
     font-size: 16px;
+    margin-top: 5px;
+    margin-left: 5px;
     /* align-items: center; */
 }
 
