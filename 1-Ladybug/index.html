@@ -6,12 +6,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <nav>
     <div class="left">
       <a class="ladybug-nav" href="">LadyBug</a>
+    </div>
+    <div class="mobile">
+    <a href=""><img src="./img/button-small.png" alt="get started link"></a>
     </div>
     <div class="nav-div middle">
       <a href="">About</a>
@@ -19,26 +22,25 @@
       <a href="">Community</a>
       <a href="">Events</a>
     </div>
-    <div class="right">
+    <div class="right desktop">
       <a href=""><img src="./img/button-small.png" alt="get started link"></a>
     </div>
   </nav>
   <main class="main-body">
-    <ul class="home-page-text">
-      <p class="bold-statement">Girls just wanna have &lt;<span>fun</span>&gt;</p>
+    <div class="home-page-text">
+      <h1 class="bold-statement">Girls just wanna have &lt;<span>fun</span>&gt;</h1>
       <p class="statement">Ladybug is a girls coding club.<br>we create a fun, learning education to coding and programming that promotes women in the tech industry.</p>
-    <div class="email-bar">
-      <div class="input-side">
-        <div class="email-writing">Email</div>
-        <div class="input-bar">
-          <input class="intup-text" type="text">    
+      <div class="email-bar">
+        <div class="input-side">
+          <label class="email-label">Email</label>
+          <input class="intup-text" type="email" placeholder="your@email.com">
+        </div>    
+        <div class="get-started-button">
+          <button class="get-started-button"><img src="./img/button-large.png" alt="get started button"></button>
         </div>
       </div>
-      <button class="get-started-button"><img src="./img/button-large.png" alt="get started button"></button>
     </div>
-    </ul>
-    <div class="hero-image"><img src="./img/hero-image.png" alt="hero image"></div>
+    <img src="./img/hero-image.png" alt="hero image" class="hero-image">
   </main>
-
 </body>
 </html>
